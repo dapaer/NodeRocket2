@@ -32,8 +32,8 @@
     "client_secret":"ac5670f43e3133ee99c2f44d63b20c31"
   },
   "yunpian":{
-    "apikey":"fc38629ab61c66e62cbd8bb03d4cfecc",
-    "tpl_id":"1645124",
+    "apikey":"xxxx",
+    "tpl_id":"xxxx",
     "tpl_value":"#code#=${code}",
     "send_tpl_sms_uri":"/v2/sms/tpl_single_send.json",
     "send_sms_uri":"/v2/sms/single_send.json",
