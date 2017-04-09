@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "noEmitHelpers": false
+  },
+  "exclude": [
+    "../node_modules"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "."
+  }
+}

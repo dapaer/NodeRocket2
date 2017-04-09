@@ -1,0 +1,46 @@
+// {
+//     "compilerOptions": {
+//         "target": "es6",
+//         "module": "system",
+//         "moduleResolution": "node",
+//         "sourceMap": true,
+//         "emitDecoratorMetadata": true,
+//         "experimentalDecorators": true,
+//         "removeComments": false,
+//         "noImplicitAny": false
+//     },
+//     "exclude": [
+//       "../node_modules"
+//     ]
+// }
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "noEmitHelpers": false
+  },
+  "include": [
+    "../client/**/*.module.ts",
+    "../client/*.d.ts"
+  ],
+  "exclude": [
+    "../node_modules"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "."
+  },
+  "experimentalDecorators":true
+}

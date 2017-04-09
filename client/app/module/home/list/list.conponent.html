@@ -1,0 +1,29 @@
+
+ <div class="b-a r-3x padder-sm padder-v-sm">
+    <form>
+    <div class="form-group">
+        <label for="exampleInputPassword1">name</label>
+        <input type="text" class="form-control" name="name" [(ngModel)]="homeObj.name" placeholder="name">
+    </div>
+   
+    <div class="form-group">
+        <label for="exampleTextarea">content</label>
+        <textarea class="form-control" name="content" [(ngModel)]="homeObj.content" rows="3"></textarea>
+    </div>
+    
+    <div class="form-group ">
+        <label for="example-number-input" class="">num</label>
+        <div class="">
+            <input class="form-control" type="number" name="num" [(ngModel)]="homeObj.num" id="example-number-input">
+        </div>
+    </div>
+    <button type="submit" (click)='submit()' class="btn btn-primary">保存</button>
+    </form>
+
+ </div>
+ <div class="padder-sm padder-v-sm">
+    <ul class="list-group" >
+        <li class="list-group-item"  [routerLink]="['/home','detail', obj._id]" [queryParams]="{debug: true}" routerLinkActive="active" *ngFor="let obj of homeLis;let index = index">序号：{{index}}==>{{obj.name}}:{{obj.content}}</li>
+    </ul>
+ </div>
+     
