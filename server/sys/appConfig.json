@@ -1,7 +1,7 @@
 {
   "db":{
     "databaseEngine":"mongodb",
-    "auth":true,
+    "auth":false,
     "userName":"dapaer",
     "passWord":"dapaer",
     "url":"localhost",
